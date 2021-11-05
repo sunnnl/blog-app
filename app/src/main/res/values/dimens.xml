@@ -1,0 +1,20 @@
+<resources>
+    <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="edt_height">400dp</dimen>
+    <dimen name="img_thumb_height">100dp</dimen>
+
+    <!-- margin -->
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="content_vertical_margin">20dp</dimen>
+    <dimen name="content_between_margin">2dp</dimen>
+    <dimen name="rv_item_between_margin">5dp</dimen>
+
+    <!-- padding -->
+    <dimen name="button_padding">10dp</dimen>
+    <dimen name="edt_padding">15dp</dimen>
+    <dimen name="edt_padding_vertical">20dp</dimen>
+    <dimen name="rv_item_padding">10dp</dimen>
+
+    <dimen name="layout_padding">20dp</dimen>
+</resources>

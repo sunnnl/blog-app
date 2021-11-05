@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ui.PostingActivity">
+
+    <EditText
+        android:id="@+id/edt_post_title"
+        style="@style/PostTitleStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/content_vertical_margin"
+        android:background="@drawable/bg_bottom_stroke"
+        android:hint="@string/word_title"
+        android:padding="@dimen/edt_padding"
+        android:singleLine="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edt_post_content"
+        style="@style/PostContentStyle"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/button_padding"
+        android:backgroundTint="@color/white"
+        android:gravity="top"
+        android:hint="@string/hint_input_post"
+        android:paddingHorizontal="@dimen/edt_padding"
+        app:layout_constraintBottom_toTopOf="@+id/btn_register_post"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edt_post_title" />
+
+    <Button
+        android:id="@+id/btn_register_post"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_button"
+        android:enabled="false"
+        android:paddingVertical="@dimen/button_padding"
+        android:text="@string/word_register"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android"> <!-- Drop Shadow Stack -->
+    <item>
+        <shape>
+            <padding
+                android:top="1dp" />
+            <solid android:color="#00CCCCCC" />
+            <corners
+                android:topLeftRadius="10dip"
+                android:topRightRadius="10dip" />
+
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <padding
+                android:top="1dp" />
+            <solid android:color="#09CCCCCC" />
+            <corners
+                android:topLeftRadius="10dip"
+                android:topRightRadius="10dip" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <padding
+                android:top="1dp" />
+            <solid android:color="#0DCCCCCC" />
+            <corners
+                android:topLeftRadius="10dip"
+                android:topRightRadius="10dip" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <padding
+                android:top="1dp" />
+            <solid android:color="#12CCCCCC" />
+            <corners
+                android:topLeftRadius="10dip"
+                android:topRightRadius="10dip" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <padding
+                android:top="1dp" />
+            <solid android:color="#15CCCCCC" />
+            <corners
+                android:topLeftRadius="10dip"
+                android:topRightRadius="10dip" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <padding
+                android:top="1dp" />
+            <solid android:color="#1ACCCCCC" />
+            <corners
+                android:topLeftRadius="10dip"
+                android:topRightRadius="10dip" />
+        </shape>
+    </item> <!-- Background -->
+    <item>
+        <shape>
+            <solid android:color="@android:color/white" />
+            <corners
+                android:topLeftRadius="10dip"
+                android:topRightRadius="10dip" />
+        </shape>
+    </item>
+</layer-list>

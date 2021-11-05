@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 포스트 제목 스타일 -->
+    <style name="PostTitleStyle" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:letterSpacing">-0.02</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <!-- 포스트 내용 스타일 -->
+    <style name="PostContentStyle" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:letterSpacing">-0.02</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <!-- 포스트 데이터 스타일 -->
+    <style name="PostDataStyle" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">14sp</item>
+        <item name="android:letterSpacing">-0.02</item>
+        <item name="android:lineSpacingExtra">14sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <!-- 포스트 도구 버튼 스타일 -->
+    <style name="PostToolStyle" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">16sp</item>
+        <item name="android:letterSpacing">-0.02</item>
+        <item name="android:lineSpacingExtra">14sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <!-- 포스트 썸네일 제목 스타일 -->
+    <style name="PostThumbTitleStyle" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">@color/color_1e2021</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:letterSpacing">-0.02</item>
+        <item name="android:lineSpacingExtra">14sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <!-- 포스트 썸네일 내용 스타일 -->
+    <style name="PostThumbContentsStyle" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">@color/color_3e3e3e</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:letterSpacing">-0.02</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <!-- 포스트 썸네일 데이터 스타일 -->
+    <style name="PostThumbDataStyle" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">@color/color_bcbcbc</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:letterSpacing">-0.02</item>
+        <item name="android:lineSpacingExtra">14sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <!-- 댓글 스타일 -->
+    <style name="CommentStyle" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">@color/color_1e2021</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:letterSpacing">-0.02</item>
+        <item name="android:lineSpacingExtra">14sp</item>
+    </style>
+
+    <!-- 댓글 데이터 스타일 -->
+    <style name="CommentDataStyle" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">12sp</item>
+        <item name="android:letterSpacing">-0.02</item>
+        <item name="android:lineSpacingExtra">14sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <!-- 정보 입력 항목 스타일 -->
+    <style name="InfoColumnStyle" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">12sp</item>
+        <item name="android:letterSpacing">-0.02</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <!-- 힌트 스타일 -->
+    <style name="EditTextHintStyle" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">16sp</item>
+        <item name="android:letterSpacing">-0.02</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+</resources>
